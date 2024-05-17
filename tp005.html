@@ -6,29 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tp css</title>
     <style>
-        h1 {
+        header {
             color: rgb(231, 21, 21);
             background-color: rgb(187, 198, 245);
         }
-        
+
         body {
             background-color: rgb(114, 143, 223);
-            
+
         }
 
         dt {
             color: brown;
         }
-        *{
+
+        * {
             text-align: center;
         }
-        footer{
+
+        footer {
             background-color: rgb(187, 198, 245);
+        }
+
+        p,
+        dd,
+        li {
+            color: white;
+        }
+
+        ol li {
+            text-align: left;
+        }
+
+        a {
+            text-align: center;
+            font-size: x-large;
+            color: mediumblue;
         }
     </style>
 </head>
 
 <body>
+
     <header>
         <h1>👉 Trabajo 06 - empezamos con el diseño</h1>
     </header>
@@ -70,8 +89,52 @@
             <dd>Los selectores de clases comienzan siempre por un . Los clientes web identifican
                 este punto y lo distinguen del resto de los selectores.</dd>
             <dt><strong>Selector de ID</strong></dt>
-            <dd>Este tipo de selector es igual al de clase, aunque lo aplicaremos a un único elemento HTML de nuestra página.</dd>
+            <dd>Este tipo de selector es igual al de clase, aunque lo aplicaremos a un único elemento HTML de nuestra
+                página.</dd>
         </dl>
+        <h2>1.7- Explicar brevemente utilizando una lista ordenada: ¿cómo funciona el CSS?</h2>
+        <ol>
+            <li>el navegador carga el HTML</li>
+            <li>convierte el documento HTML en un DOM, un DOM es un Modelo de objetos del documento</li>
+            <li>el navegador busca los documentos vinculados al htnml. incluyendo el css</li>
+            <li>El navegador analiza el CSS y ordena en diferentes «cubos» las diferentes reglas según el tipo de
+                selector. </li>
+            <li>se renderiza el html y css</li>
+            <li>En la pantalla se muestra el aspecto visual de la página</li>
+        </ol>
+        <h2>1.8- ¿Cuáles son las tres formas para vincular CSS con HTML?</h2>
+        <p>se puede hacer de 3 maneras: por medio de un archivo externo, por una etiqueta (style), o utilizar el style
+            como atributo</p>
+        <h2>1.9- Ingrese al sitio CSS Zen Garden http://www.csszengarden.com y analicemos el código HTML siguiendo los
+            siguientes pasos:</h2>
+        <p style="color: black; font-size: x-large;">
+            Hacer clic en View All Designs
+            Elegir dos diseños y abrirlo en pestañas distintas <br>
+            En el primer diseño presiona ctrl+u (esta combinación de teclas permite ver el código HTML en el navegador)
+            <br>
+            En el segundo diseño presiona ctrl+u (esta combinación de teclas permite ver el código HTML en el navegador)
+            <br>
+            Escribir la URL de los dos diseños seleccionados y responder: las etiquetas dentro de body ¿son iguales?
+            ¿Qué es lo distinto? ¿Qué contribuye al cambio de diseño? <br>
+            Abrir los dos archivos CSS de los diseños seleccionados. ¿Son los mismos? <br>
+            En líneas generales, el mismo HTML ¿puede tener diferentes diseños?
+
+        </p>
+        </p>
+        <a href="https://www.csszengarden.com/219/">sitio 1</a><br>
+        <a href="https://www.csszengarden.com/202/">sitio 2</a>
+        <p>
+            si son sus estructura html son iguales. lo que cambia es el diseño visual de la pagina. lo que contribuye al
+            cambio es que sus estructuras css son distinas en cada uno
+        </p>
+        <p>
+            no tienen la misma estructura en css
+        </p>
+        <p>
+            el mismo html si puede variar en sus apartados visuales.
+        </p>
+
+        
     </main>
     <footer>
         Leandro Cabrera 4°3
